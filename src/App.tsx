@@ -1,9 +1,13 @@
-import AppRouter from "./routes";
+import React from "react";
+import { Outlet } from "react-router-dom";
 
-export default function App() {
+const App = () => {
   return (
-    <>
-      <AppRouter />
-    </>
+    <div>
+      <h1>Github Finder</h1>
+      <Outlet />
+    </div>
   );
-}
+};
+
+export default App;
