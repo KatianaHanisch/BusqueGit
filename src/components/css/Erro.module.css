@@ -1,0 +1,19 @@
+.containerErro {
+  background-color: #224870;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.containerErro p {
+  font-size: 1.2rem;
+}
+
+.containerErro svg {
+  font-size: 1.9rem;
+  fill: #bdbdbd;
+}

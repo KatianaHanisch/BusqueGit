@@ -21,8 +21,6 @@ function Busca({ loadUser }: BuscaProps) {
   return (
     <div className={classes.containerBusca}>
       <h2>Busque por um usuário:</h2>
-      <p>Conheça seus melhores repositórios</p>
-
       <div className={classes.containerInput}>
         <input
           type="text"

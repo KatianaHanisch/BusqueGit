@@ -1,5 +1,5 @@
 .containerBusca {
-  background-color: #2b3566;
+  background-color: #224870;
   padding: 2rem;
   border-radius: 1rem;
   display: flex;
@@ -10,13 +10,15 @@
   margin-bottom: 1.5rem;
 }
 
-.containerBusca p {
-  color: #9da5d1;
+.containerBusca h2 {
+  font-size: 1.7rem;
+  color: #f1f1f1;
 }
 
 .containerBusca .containerInput {
   display: flex;
   gap: 0.5rem;
+  width: 75%;
 }
 
 .containerBusca .containerInput input,
@@ -27,8 +29,18 @@
   color: #2b3566;
   outline: none;
 }
+.containerBusca .containerInput input {
+  width: 100%;
+  font-size: 1rem;
+}
 
 .containerBusca .containerInput button {
-  background-color: #0e1129;
+  background-color: #4ea5d9;
   cursor: pointer;
+  width: 45px;
+  align-items: center;
+}
+.containerBusca .containerInput button svg {
+  font-size: 1.1rem;
+  fill: #f1f1f1;
 }
